@@ -9,12 +9,14 @@ import { SellerModule } from './seller/seller.module';
 import { SignupModule } from './signup/signup.module';
 import { HttpClientModule } from '@angular/common/http';
 import { NotFoundComponent } from './not-found/not-found.component';
+import { LeftbarComponent } from './leftbar/leftbar.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeadersComponent,
-    NotFoundComponent
+    NotFoundComponent,
+    LeftbarComponent
   ],
   imports: [
     BrowserModule,
